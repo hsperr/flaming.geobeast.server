@@ -3,6 +3,17 @@
   <groupId>flaming.geobeast.server</groupId>
   <artifactId>flaming.geobeast.server</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+    <jettyVersion>9.2.5.v20141112</jettyVersion>
+  </properties>
+ 
+  <dependencies>
+    <dependency>
+      <groupId>org.eclipse.jetty</groupId>
+      <artifactId>jetty-server</artifactId>
+      <version>${jettyVersion}</version>
+    </dependency>
+  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
